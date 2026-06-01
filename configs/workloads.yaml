@@ -1,0 +1,20 @@
+workloads:
+  - name: llama-3.1-8b
+    iterations: 5
+    device: CPU
+
+  - name: phi3-mini
+    iterations: 5
+    device: GPU
+
+  - name: stable-diffusion
+    iterations: 3
+    device: GPU
+
+  - name: pugetbench
+    iterations: 3
+    device: CPU
+
+  - name: procyon
+    iterations: 3
+    device: CPU

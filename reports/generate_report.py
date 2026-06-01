@@ -1,0 +1,8 @@
+import json
+
+
+def save_report(results, filename="benchmark_report.json"):
+    with open(filename, "w") as f:
+        json.dump(results, f, indent=4)
+
+    print(f"Report saved: {filename}")

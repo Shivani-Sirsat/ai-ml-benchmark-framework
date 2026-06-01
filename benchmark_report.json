@@ -1,0 +1,62 @@
+[
+    {
+        "benchmark": {
+            "workload": "llama-3.1-8b",
+            "iterations": 5,
+            "execution_time_sec": 5.0
+        },
+        "telemetry": {
+            "cpu_percent": 13.5,
+            "memory_percent": 86.4,
+            "available_memory_gb": 2.14
+        }
+    },
+    {
+        "benchmark": {
+            "workload": "phi3-mini",
+            "iterations": 5,
+            "execution_time_sec": 5.0
+        },
+        "telemetry": {
+            "cpu_percent": 32.7,
+            "memory_percent": 86.1,
+            "available_memory_gb": 2.19
+        }
+    },
+    {
+        "benchmark": {
+            "workload": "stable-diffusion",
+            "iterations": 3,
+            "execution_time_sec": 3.0
+        },
+        "telemetry": {
+            "cpu_percent": 20.6,
+            "memory_percent": 85.9,
+            "available_memory_gb": 2.21
+        }
+    },
+    {
+        "benchmark": {
+            "workload": "pugetbench",
+            "iterations": 3,
+            "execution_time_sec": 3.0
+        },
+        "telemetry": {
+            "cpu_percent": 3.1,
+            "memory_percent": 85.9,
+            "available_memory_gb": 2.22
+        }
+    },
+    {
+        "benchmark": {
+            "workload": "procyon",
+            "iterations": 3,
+            "execution_time_sec": 3.0
+        },
+        "telemetry": {
+            "cpu_percent": 31.5,
+            "memory_percent": 86.2,
+            "available_memory_gb": 2.16
+        }
+    }
+]
