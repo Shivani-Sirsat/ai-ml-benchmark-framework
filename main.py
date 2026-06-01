@@ -24,4 +24,4 @@ for workload in config["workloads"]:
         "telemetry": telemetry
     })
 
-save_report(all_results)
+save_report(all_results, "reports/benchmark_report.json")
