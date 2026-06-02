@@ -64,7 +64,8 @@ def run_benchmarks():
 
         benchmark_result = run_benchmark(
             workload["name"],
-            workload["iterations"]
+            workload["iterations"],
+            workload["command"]
         )
 
         telemetry = collect_system_metrics()
