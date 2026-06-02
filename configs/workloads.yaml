@@ -1,25 +1,25 @@
 workloads:
   - name: llama-3.1-8b
     iterations: 5
-    device: CPU
-    command: echo Running Llama 3.1 Benchmark
+    device: GPU
+    command: python workloads/llama_workload.py
 
   - name: phi3-mini
     iterations: 5
     device: GPU
-    command: echo Running Phi3 Benchmark
+    command: python workloads/phi3_workload.py
 
   - name: stable-diffusion
     iterations: 3
     device: GPU
-    command: echo Running Stable Diffusion Benchmark
+    command: python workloads/stable_diffusion_workload.py
 
   - name: pugetbench
     iterations: 3
     device: CPU
-    command: echo Running PugetBench Benchmark
+    command: python workloads/pugetbench_workload.py
 
   - name: procyon
     iterations: 3
     device: CPU
-    command: echo Running Procyon Benchmark
+    command: python workloads/procyon_workload.py
