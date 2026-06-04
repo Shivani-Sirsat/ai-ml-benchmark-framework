@@ -1,0 +1,40 @@
+2026-06-04 17:34:36,755 - INFO - Starting workload: llama-3.1-8b
+2026-06-04 17:34:39,884 - INFO - Completed workload: llama-3.1-8b | Execution Time: 3.13 sec
+2026-06-04 17:34:40,886 - INFO - Starting workload: phi3-mini
+2026-06-04 17:34:43,980 - INFO - Completed workload: phi3-mini | Execution Time: 3.09 sec
+2026-06-04 17:34:44,982 - INFO - Starting workload: stable-diffusion
+2026-06-04 17:34:48,100 - INFO - Completed workload: stable-diffusion | Execution Time: 3.12 sec
+2026-06-04 17:34:49,102 - INFO - Starting workload: pugetbench
+2026-06-04 17:34:52,202 - INFO - Completed workload: pugetbench | Execution Time: 3.1 sec
+2026-06-04 17:34:53,216 - INFO - Starting workload: procyon
+2026-06-04 17:34:56,334 - INFO - Completed workload: procyon | Execution Time: 3.12 sec
+2026-06-04 17:40:04,210 - INFO - Starting workload: llama-3.1-8b
+2026-06-04 17:40:07,352 - INFO - Completed workload: llama-3.1-8b | Execution Time: 3.14 sec
+2026-06-04 17:40:08,353 - INFO - Starting workload: phi3-mini
+2026-06-04 17:40:11,458 - INFO - Completed workload: phi3-mini | Execution Time: 3.1 sec
+2026-06-04 17:40:12,460 - INFO - Starting workload: stable-diffusion
+2026-06-04 17:40:15,568 - INFO - Completed workload: stable-diffusion | Execution Time: 3.11 sec
+2026-06-04 17:40:16,570 - INFO - Starting workload: pugetbench
+2026-06-04 17:40:19,703 - INFO - Completed workload: pugetbench | Execution Time: 3.13 sec
+2026-06-04 17:40:20,704 - INFO - Starting workload: procyon
+2026-06-04 17:40:23,816 - INFO - Completed workload: procyon | Execution Time: 3.11 sec
+2026-06-04 17:42:23,944 - INFO - Starting workload: llama-3.1-8b
+2026-06-04 17:42:27,076 - INFO - Completed workload: llama-3.1-8b | Execution Time: 3.13 sec
+2026-06-04 17:42:28,078 - INFO - Starting workload: phi3-mini
+2026-06-04 17:42:31,198 - INFO - Completed workload: phi3-mini | Execution Time: 3.12 sec
+2026-06-04 17:42:32,201 - INFO - Starting workload: stable-diffusion
+2026-06-04 17:42:35,445 - INFO - Completed workload: stable-diffusion | Execution Time: 3.24 sec
+2026-06-04 17:42:36,446 - INFO - Starting workload: pugetbench
+2026-06-04 17:42:39,591 - INFO - Completed workload: pugetbench | Execution Time: 3.14 sec
+2026-06-04 17:42:40,593 - INFO - Starting workload: procyon
+2026-06-04 17:42:43,715 - INFO - Completed workload: procyon | Execution Time: 3.12 sec
+2026-06-04 17:44:28,695 - INFO - Starting workload: llama-3.1-8b
+2026-06-04 17:44:31,853 - INFO - Completed workload: llama-3.1-8b | Execution Time: 3.16 sec
+2026-06-04 17:44:32,855 - INFO - Starting workload: phi3-mini
+2026-06-04 17:44:35,965 - INFO - Completed workload: phi3-mini | Execution Time: 3.11 sec
+2026-06-04 17:44:36,967 - INFO - Starting workload: stable-diffusion
+2026-06-04 17:44:40,075 - INFO - Completed workload: stable-diffusion | Execution Time: 3.11 sec
+2026-06-04 17:44:41,077 - INFO - Starting workload: pugetbench
+2026-06-04 17:44:44,187 - INFO - Completed workload: pugetbench | Execution Time: 3.11 sec
+2026-06-04 17:44:45,188 - INFO - Starting workload: procyon
+2026-06-04 17:44:48,301 - INFO - Completed workload: procyon | Execution Time: 3.11 sec

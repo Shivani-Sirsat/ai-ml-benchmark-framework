@@ -6,6 +6,7 @@ from pathlib import Path
 from benchmarks.runner import run_benchmark
 from telemetry.collector import collect_system_metrics
 from reports.generate_report import save_report
+from reports.generate_csv_report import save_csv_report
 
 app = FastAPI(
     title="AI/ML Benchmark Framework",
@@ -80,7 +81,21 @@ def run_benchmarks():
         "reports/benchmark_report.json"
     )
 
+    save_csv_report(
+    all_results,
+    "reports/benchmark_report.csv"
+    )
+
+    total_execution_time = sum(
+        result["benchmark"]["execution_time_sec"]
+        for result in all_results
+    )
+
     return {
         "status": "completed",
-        "workloads_executed": len(all_results)
+        "workloads_executed": len(all_results),
+        "total_execution_time_sec": round(total_execution_time, 2),
+        "report_json": "reports/benchmark_report.json",
+        "report_csv": "reports/benchmark_report.csv",
+        "log_file": "logs/benchmark.log"
     }
