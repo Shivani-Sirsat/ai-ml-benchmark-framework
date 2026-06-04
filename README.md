@@ -41,7 +41,7 @@ Current implementation includes placeholder workloads for:
 * PugetBench
 * Procyon
 
-The framework can be extended to run real benchmark workloads by replacing the workload commands in the configuration file.
+The framework can be extended to run real benchmark workloads by replacing the workload commands in the configuration file. And can be added more workloads.
 
 ---
 
